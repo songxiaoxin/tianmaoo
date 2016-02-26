@@ -1,0 +1,96 @@
+.footer{
+	width: 100%;
+}
+.tmall-ensure{
+	width: 1190px;
+	height: 100px;
+	background: url("../images/service.jpg") no-repeat;
+	margin: 25px auto;
+	padding: 0;
+}
+.tmall-dec{
+	width: 1190px;
+	padding-top: 22px;
+	height: 190px;
+	margin: auto;
+	border-top: 1px solid #ededed;
+	background: url("../images/mao.jpg") no-repeat 45px bottom;
+}
+.ensure{
+	width:186px;
+	padding-left: 52px;
+	float: left;
+}
+.ensure dt{
+	color: #646464;
+	font-size: 16px;
+	font-weight: 700;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+}
+.ensure dd{
+	margin: 0;
+	padding:0;
+
+}
+.ensure dd a{
+	display: block;
+	width: 100px;
+	/*overflow: hidden;*/
+	text-align: left;
+	height: 20px;
+	line-height: 20px;
+	color: #8b8b8b;
+}
+.tmall-copyright{
+	border-top: 2px solid #c40000;
+	background: #000;
+	text-align: left;
+	min-height: 177px;
+}
+.tmallinfo{
+	width: 1190px;
+	margin: auto;
+	color: #fff;
+	line-height: 25px;
+	padding: 10px 0 0 20px;
+	font-size: 1.1em;
+}
+.tmallinfo a{
+	margin-right: 3px;
+	color: white;
+}
+.tmallohterlink{
+	width: 1190px;
+	margin: auto;
+	color: #fff;
+	line-height: 25px;
+	padding:0 0 10px 20px;
+	text-align: left;
+	font-size: 1.1em;
+}
+.tmallohterlink a{
+	margin-right: 4px;
+	color: white;
+}
+.footer-cpopyright{
+	width: 1190px;
+	margin: auto;
+	padding: 0 0 20px 20px;
+	line-height: 20px;
+	background: #000;
+	color: #a4a4a4;
+}
+.footer-cpopyright a{
+	color: #a4a4a4;
+	margin-right: 64px;
+}
+.footer-copyright b{
+	display: block;
+	color: #686868;
+	font-weight: 400
+}
+.footer-cpopyright p a{
+	margin-right: 10px;
+}

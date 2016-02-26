@@ -1,0 +1,265 @@
+.headerlayout{
+	margin: 0 auto;
+	width: 1190px;
+	position: relative;
+	overflow: hidden;
+}
+.headerlayout .maologo{
+	width: 340px;
+	height: 85px;
+	overflow: hidden;
+	float: left;
+}
+.headerlayout .maosearch{
+	float: left;
+	width: 540px;
+	height: 60px;
+	padding-right: 20px;
+	padding-top: 25px;
+}
+.headerlayout .search-form{
+	border: solid #c40000;
+	border-width: 3px 0 3px 3px;
+	position: relative;
+}
+.headerlayout .maosearch-input{
+	height: 32px;
+	background:white;
+	position: relative;
+}
+.headerlayout .maosearch-input .search-text{
+	height: 22px;
+	line-height: 22px;
+	padding:5px 3px 5px 5px;
+	border:0;
+	width: 439px;
+}
+.headerlayout .maosearch-input .search-lab{
+	color: rgb(105, 105, 105);
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	font-size: 14px;
+}
+.headerlayout .search-form button{
+	width: 90px;
+	height: 33px;
+	background-color: #c40000;
+	position: absolute;
+	right: 0;
+	border:0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 9px;
+	font-weight: bold;
+	text-align: center;
+}
+.headerlayout .header-banner{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 110px;
+	padding-left: 0;
+	text-align: right;
+	z-index: 1;
+}
+.headerlayout .header-banner img{
+
+	-webkit-transition:all 0.625s ease;
+	transition:all 0.625s ease;
+	-moz-transition:all 0.625s ease;
+	-o-transition:all 0.625s ease;
+}
+.maosearch .hot-search{
+	padding-top: 6px;
+	margin-left: -13px;
+	height: 16px;
+	overflow: hidden;
+	width: 100%;
+}
+.maosearch .hot-search li{
+	display: inline-block;
+    border-left: 1px solid #ccc;
+	padding: 0 12px;
+	float: left;
+}
+.maosearch .hot-search li a{
+	color:#999;
+}
+.maosearch .hot-search li a:hover{
+	text-decoration:underline;
+}
+.maosearch .hot-search .lifirst{
+	border-left: 0;
+}
+.maosearch .hot-search .hot-lighthigh a{
+	color: #c40000;
+}
+
+
+/*热门品牌*/
+.main-brand{
+	width: 100%;
+	background:#f3f3f3;
+	overflow: hidden;
+	/*height: 376px;*/
+	/*_border:1px solid red;*/
+}
+.main-container{
+	position: relative;
+	width: 1190px;
+	margin: 0 auto;
+	/*height: 500px;*/
+	padding-top: 50px;
+	/*_border:1px solid blue;*/
+}
+.main-container .hot-brand .brand-title{
+	display: block;
+	margin: 15px 0 8px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 17px;
+	font-weight: 700;
+	color: #000;
+	text-indent: -1000em;
+	width: 192px;
+	background-image:url("../images/HotBrand.png");
+	background-repeat: no-repeat;
+	background-position: 0 1px;
+	position: absolute;
+	top: 6px;
+	left:0;
+}
+.main-container .brand-content{
+	position:relative;
+	z-index: 1;
+	height: 326px;
+}
+.main-container .brand-content .brand-first{
+	float: left;
+	height: 326px;
+	position: absolute;
+	left: 0;
+	width: 205px;
+	z-index: 10000;
+}
+.main-container .brand-content .brand-first img{
+
+}
+.main-container .brand-content .brand-rec-slide{
+	position: relative;
+	float: left;
+	width: 810px;
+	margin-left: 190px;
+	display: inline;
+}
+.main-container .brand-content .brand-rec-slide .brand-nav-slide{
+	position: absolute;
+	top:-27px;
+	left:0;
+}
+.main-container .brand-content .brand-rec-slide .brand-nav-slide li{
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	margin: 0 15px;
+	color: #666;
+	cursor:pointer;
+	float: left;
+	transition:all .5s ease;
+}
+.main-container .brand-content .brand-rec-slide .brand-nav-slide .xiahua{
+	text-decoration: underline;
+	/*color: red;*/
+}
+.main-container .brand-content .brand-rec-slide .brand-nav-slide li:hover{
+	text-decoration: underline;
+}
+
+.brand-rec-slide .brand-rec-content{
+	position: relative;
+	padding: 0 2px 0 4px;
+	width: 806px;
+	height: 326px;
+	/*border:1px solid yellow;*/
+}
+.brand-rec-content .brand-rec-pannel{
+	display: none;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.brand-rec-slide .brand-rec-content .brand-wall-slide{
+	position: relative;
+}
+.brand-rec-slide .brand-rec-content .brand-wall-slide .brand-wall-content{
+	position: relative;
+	width: 806px;
+	height: 326px;
+	overflow: hidden;
+}
+.brand-wall-slide .brand-wall-content .brand-wall-pannel{
+	position: absolute;
+	z-index: 1;
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.brand-wall-slide .brand-wall-content .brand-wall-pannel .brand-item{
+	display: block;
+	width: 132px;
+	height: 80px;
+	webkit-transition: height .3s ease;
+	-moz-transition: height .3s ease;
+	-o-transition: height .3s ease;
+	transition: height .3s ease;
+	text-align: center;
+	background: #fff;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	float: left;
+}
+.brand-wall-slide .brand-wall-content .brand-wall-pannel .brand-item img{
+	padding-top: 15px;
+}
+.brand-wall-slide .brand-trigger-next {
+right: 75px;
+color: #666;
+position: absolute;
+top: -28px;
+text-decoration: none;
+font-size: 13px;
+font-weight: 700;
+cursor: pointer;
+webkit-transition: height .3s ease;
+-moz-transition: height .3s ease;
+-o-transition: height .3s ease;
+transition: height .3s ease;
+}
+.brand-wall-slide .brand-trigger-next:hover{
+	color: #000;
+
+}
+.brand-rec-slide .brand-pool{
+	position: absolute;
+	right: 10px;
+	top: -24px;
+	color: #666;
+	font: 400 12px '\5b8b\4f53',Hei;
+}
+.brand-rec-slide .brand-pool:hover{
+	text-decoration: underline;
+	color: #000;
+}
+.brand-today{
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	width: 182px;
+	height: 318px;
+	padding: 4px;
+	background: #fff;
+	overflow: hidden;
+}

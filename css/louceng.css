@@ -1,0 +1,68 @@
+.as-total-container{
+	display: block;
+	margin:0 auto;
+	position:fixed;
+	height:50px;
+	/*top:-50px;*/
+	width:100%;
+	z-index:10;
+	opacity:1;
+	box-shadow: 0 0 4px #eaeaea;
+	overflow: hidden;
+	background:#000;
+}
+.attached-search-container{
+	top:0;
+	width:1190px;
+	position: relative;
+	height:50px;
+	margin:0 auto;
+	border:0;
+}
+.fp-iconfont{
+	float: left;
+}
+.attached-search-container #mallSearch{
+	float: left;
+	padding:0!important;
+	width:740px!important;
+	position: relative;
+	z-index:10;
+	height:30px;
+	margin:-42px auto;
+}
+.attached-search-container .mallSearch-form{
+	border:0!important;
+}
+.clearfix{
+	zoom:1;
+}
+#mallSearch fieldset{
+	position: relative;
+	border:0!important;
+}
+.attached-search-container .mallSearch-input{
+	height:30px;
+}
+.attached-search-container .s-combobox{
+	height:30px;
+	width:650px;
+	float: left;
+	font-size: 12px;
+}
+.s-combobox .s-combobox-input-wrap{
+	position: relative;
+	height:30px;
+	vertical-align: middle;
+}
+#mallSearch label{
+	font-size: 12px;
+	line-height: 30px;
+	height:30px;
+	position: absolute;
+	left:8px;
+	top:0;
+	z-index:1;
+	overflow: hidden;
+	white-space: nowrap;
+}
